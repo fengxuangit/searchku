@@ -1,0 +1,426 @@
+[ 2015-11-19T13:15:27+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:15:27+08:00 ] 127.0.0.1 /searchku/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:15:27+08:00 ] 127.0.0.1 /searchku/css/style2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:15:27+08:00 ] 127.0.0.1 /searchku/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:15:27+08:00 ] 127.0.0.1 /searchku/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001851s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003635s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:15:27+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/css/style2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/APP_NAME/blog/Tpl/Index//static/css/style1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2015-11-19T13:17:08+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/Public//static/css/style1.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/css/style2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:17:58+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:19:12+08:00 ] 127.0.0.1 /searchku/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:19:12+08:00 ] 127.0.0.1 /searchku/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:19:12+08:00 ] 127.0.0.1 /searchku/css/style2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Css
+
+[ 2015-11-19T13:19:12+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:19:12+08:00 ] 127.0.0.1 /searchku/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T13:19:12+08:00 ] 127.0.0.1 /searchku/js/menu_jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Js
+
+[ 2015-11-19T14:56:13+08:00 ] 127.0.0.1 /searchku/APP_NAME/blog/Tpl/Index//css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2015-11-19T14:56:13+08:00 ] 127.0.0.1 /searchku/APP_NAME/blog/Tpl/Index//js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2015-11-19T14:56:13+08:00 ] 127.0.0.1 /searchku/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:56:13+08:00 ] 127.0.0.1 /searchku/APP_NAME/blog/Tpl/Index//js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2015-11-19T14:56:14+08:00 ] 127.0.0.1 /searchku/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:57:45+08:00 ] 127.0.0.1 /searchku/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:57:46+08:00 ] 127.0.0.1 /searchku/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:58:48+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:58:54+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:50+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:50+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:50+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T14:59:50+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T14:59:56+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:57+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:57+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:57+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T14:59:58+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T14:59:58+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:00:07+08:00 ] 127.0.0.1 //searchku/index.php/images/home.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:Images
+
+[ 2015-11-19T15:01:07+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:07+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:17+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:17+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:19+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:19+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:20+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:20+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:21+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:01:21+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:02:06+08:00 ] 127.0.0.1 /searchku/Public//css/__PUBLIC__/woff/32nyIRHyCu6iqEka_hbKsnhCUOGz7vYGh680lGh-uXM.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:02:22+08:00 ] 127.0.0.1 /searchku/Public//css/__PUBLIC__/woff/32nyIRHyCu6iqEka_hbKsnhCUOGz7vYGh680lGh-uXM.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:03:18+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:03:18+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:03:36+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:03:36+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:09:23+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:09:23+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:10:10+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:10:10+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:10:13+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:10:13+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:10:15+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:10:15+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-19T15:41:32+08:00 ] 127.0.0.1 //searchku/support.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Support
+

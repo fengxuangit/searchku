@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Xfree内部社工库查询系统</title>
+<link href="__PUBLIC__/css/style3.css" rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="__PUBLIC__js/jquery-1.11.1.min.js"></script>
+<script defer="defer" src="__PUBLIC__js/menu_jquery.js"></script>
+</head>
+<body>
+<div id="d1" class="result">
+<table>
+	<tr>
+		<th>姓名</th>
+		<th>常用密码</th>
+		<th>qq</th>
+		<th>手机</th>
+		<th>网站</th>
+		<th>银行卡</th>
+		<th>出生年月</th>
+		<th>家庭住址</th>
+		<th>身份证号码</th>
+		<th>邮箱</th>
+		<th>常用登录IP</th>
+		<th>其他</th>
+	</tr>
+	<tr>
+		<foreach name="result" item="v">
+			<td>{$v['name']}</td>
+			<td>{$v['pass']}</td>
+			<td>{$v['qq']}</td>
+			<td>{$v['phone']}</td>
+			<td>{$v['website']}</td>
+			<td>{$v['card']}</td>
+			<td>{$v['birth']}</td>
+			<td>{$v['idcard']}</td>
+			<td>{$v['email']}</td>
+			<td>{$v['ip']}</td>
+			<td>{$v['other']}</td>
+		</foreach>
+	</tr>
+
+</table>
+</div>
+</body>
+</html>		

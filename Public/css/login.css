@@ -1,0 +1,8 @@
+@import url("public.css");
+body{background:#fff;}
+table,th,td{border:solid 0px #dcdcdc;background:#F1F1F1;}
+th{width:80px; font-size: 12px;}
+#top{background:url("../Images/logo.png") #F1F1F1 10px 10px no-repeat;height:80px;border-bottom: solid 1px #ccc;}
+div.login{background: #F1F1F1;width:600px;border:solid 1px #ccc;padding:20px;margin:0px auto;margin-top:30px;}
+.title{font-size:16px;height: 35px;}
+.left{width:280px;}

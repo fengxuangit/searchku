@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Xfree内部社工库查询系统</title>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script src="js/menu_jquery.js"></script>
+</head>
+<body>
+<table>
+	<tr>
+		<th>姓名</th>
+		<th>常用密码</th>
+		<th>qq</th>
+		<th>手机</th>
+		<th>网站</th>
+		<th>银行卡</th>
+		<th>出生年月</th>
+		<th>家庭住址</th>
+		<th>身份证号码</th>
+		<th>邮箱</th>
+		<th>常用登录IP</th>
+		<th>其他</th>
+	</tr>
+	<tr>
+		{% if result %}
+			{% for line in result %}
+				<td>{{ line }}</td>
+			{% endfor %}
+		{% else %}
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+			<td>No thing!</td>
+		{% endif %}
+	</tr>
+
+</table>
+</body>
+</html>		
