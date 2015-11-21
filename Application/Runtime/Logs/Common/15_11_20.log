@@ -1,0 +1,18 @@
+[ 2015-11-20T10:40:13+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/bg1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-20T10:40:13+08:00 ] 127.0.0.1 /searchku/Public/css/__PUBLIC__/images/ioc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Public
+
+[ 2015-11-20T10:40:41+08:00 ] 127.0.0.1 //searchku//manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Manage
+
