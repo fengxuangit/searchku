@@ -2,13 +2,14 @@
 <html>
 <head>
 <title>Xfree内部社工库查询系统</title>
-<link href="/searchku/Public//css/style2.css" rel='stylesheet' type='text/css' />
+<link href="/searchku/Public//css/style3.css" rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="/searchku/Public/js/jquery-1.11.1.min.js"></script>
 <script defer="defer" src="/searchku/Public/js/menu_jquery.js"></script>
 </head>
 <body>
 <div id="d1" class="result">
-<table>
+	<h2 align="center">查询结果</h2>
+<table align="center">
 	<tr>
 		<th>姓名</th>
 		<th>常用密码</th>

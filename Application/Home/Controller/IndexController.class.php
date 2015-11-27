@@ -5,9 +5,13 @@ class IndexController extends Controller {
     public function index(){
         $this->display();
     }
-
+    
     public function search(){
-    	
-    	$this->display();
+    	if (I('search_text') != '') {
+    		//TODO 业务逻辑
+    		
+    	}else {
+    		$this->error("sorry, Can't search with Null Value", U('/index.php/','',''));
+    	}
     }
 }

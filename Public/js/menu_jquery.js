@@ -42,6 +42,11 @@ $(function() {
 });
 
 $('#search_button').click(function (){
-   $('#d1').submit();
+   if ($('#search_text').val() != ""){
+      $('#d1').submit();
+   }else{
+    alert("搜索框不能为空！");
+   }
+   
 });
 
