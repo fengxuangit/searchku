@@ -63,8 +63,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<form id='d1' action="<?php echo U('Index/search', '', '');?>" method="get">
 							<input type="text" name="search_text" id="search_text" placeholder="Search"/>
 							<input type="button" name="search_button" id="search_button">
-						</form>
 					</li>
+					<!--
+					<select id="options">
+						<ul class="subnav">
+							<li><option value ="name">name</option></li>
+							<li><option value ="email">email</option></li>
+							<li><option value ="other">other</option></li>
+						</ul>
+					</select>
+					-->
 					<li id="options">
 						<a href="#">All Images</a>
 						<ul class="subnav">
@@ -74,6 +82,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</li>
 	              </ul>
+	              
+	              </form>
 	            </div>
 			</div>
 		</div>

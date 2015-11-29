@@ -15,7 +15,7 @@ class LoginController extends Controller {
     		'useNoise' => false,
     	);
     	$verify = new \Think\Verify($config);
-    	$verify->entry();
+    	$verify->entry();public.css
     }
 
     public function login(){

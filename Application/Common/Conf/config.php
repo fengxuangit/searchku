@@ -5,10 +5,13 @@ return array(
 			'__PUBLIC__' => __ROOT__.'/'.APP_NAME.'/blog/Tpl/Index/',
 	),
 	'TMPL_FILE_DEPR' => '_',
-	'DB_HOST' => '127.0.0.1',
+	'DB_HOST' => '192.168.108.128',
 	'DB_NAME' => 'searchku',
-	'DB_USER' => 'root',
-	'DB_PWD'  => '123480',
+	'DB_USER' => 'mysql',
+	'DB_PWD'  => 'mysql123',
 	'DB_PREFIX' => 'xfree_',
 	'DB_CHARSET' => 'utf-8',
+	'DB_PREFIX' =>  'xfree_',    // 数据库表前缀'
+	'DB_DEBUG' => TRUE,
+
 );

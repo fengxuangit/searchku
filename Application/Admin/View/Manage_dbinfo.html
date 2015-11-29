@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>数据库信息</title>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/css/admin.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/menu.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>编号</td>
+			<td>名称</td>
+			<td>提供者</td>
+			<td>容量</td>
+			<td>来源</td>
+			<td>入库时间</td>
+		</tr>
+		<foreach name="info" item="v">
+		<tr>
+			<td>{$v.id}</td>
+			<td>{$v.dbname}</td>
+			<td>{$v.user}</td>
+			<td>{$v.size}</td>
+			<td>{$v.from}</td>
+			<td>{$v.time}</td>
+		</tr>
+		</foreach>
+	</table>
+</body>
+</html>

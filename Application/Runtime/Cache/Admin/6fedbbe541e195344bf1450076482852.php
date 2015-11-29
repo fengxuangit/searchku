@@ -7,15 +7,14 @@
 <script type="text/javascript" src="/searchku/Public/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="/searchku/Public/js/menu.js"></script>
 </head>
-
 <body>
+<base target="iframe"/>
 <div class="top"></div>
 <div id="header">
 	<div class="logo">社工库后台管理系统</div>
 	<div class="navigation">
 		<ul>
 		 	<li>欢迎您！<?php echo ($username); ?></li>
-			<li><a href=""><?php echo ($username); ?></a></li>
 			<li><a href="">修改密码</a></li>
 			<li><a href="">设置</a></li>
 			<li><a href="">退出</a></li>
@@ -28,8 +27,8 @@
       <li>
           <h4 class="M1"><span></span>数据库管理</h4>
           <div class="list-item none">
-            <a href=''>查看数据库</a>
-            <a href=''>添加数据库</a>
+            <a href="<?php echo U('/Admin/Manage/look','','');?>" target="_blank">查看数据库</a>
+            <a href="<?php echo U('/Admin/Manage/addbase','','');?>">添加数据库</a>
           </div>
         </li>
         <li>
