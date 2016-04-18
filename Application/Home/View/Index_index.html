@@ -17,6 +17,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='__PUBLIC__/css/style2.css' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.1.min.js"></script>
 <script defer="defer" src="__PUBLIC__/js/menu_jquery.js"></script>
+<script type="text/javascript">
+	
+</script>
 </head>
 <body>
 	<div class="header">	
@@ -56,33 +59,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="banner">
 		<div class="container">
 			<div class="span_1_of_1">
-			    <h2>EveryThing You Want To Know?<br> Check In This Search Box!</h2>
+			    <h2>EveryThing You Want To Know?</h2>
 			    <div class="search">
 			      <ul class="nav1">
 		            <li id="search">
 						<form id='d1' action="{:U('Index/search', '', '')}" method="get">
-							<input type="text" name="search_text" id="search_text" placeholder="Search"/>
+							<input type="text" name="keyword" id="search_text" placeholder="Search"/>
+							<input type="hidden" name="type" value="username">
 							<input type="button" name="search_button" id="search_button">
 					</li>
-					<!--
-					<select id="options">
-						<ul class="subnav">
-							<li><option value ="name">name</option></li>
-							<li><option value ="email">email</option></li>
-							<li><option value ="other">other</option></li>
-						</ul>
-					</select>
-					-->
 					<li id="options">
 						<a href="#">All Images</a>
 						<ul class="subnav">
-							<li><a href="#">Photography</a></li>
-							<li><a href="#">Illustrations</a></li>
-							<li><a href="#">Vector</a></li>
+							<li><a href="#">username</a></li>
+							<li><a href="#">email</a></li>
+							<li><a href="#">qq</a></li>
+							<li><a href="#">other</a></li>
 						</ul>
 					</li>
 	              </ul>
-	              
 	              </form>
 	            </div>
 			</div>
