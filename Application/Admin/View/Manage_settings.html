@@ -1,0 +1,122 @@
+<include file="./Application/Admin/View/header.html" />
+
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<include file="./Application/Admin/View/header2.html" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="span3">
+					<div class="well" style="padding: 8px 0;">
+						<ul class="nav nav-list">
+							<li class="nav-header">
+								Akira
+							</li>
+							<li>
+								<a href="index.html"><i class="icon-home"></i> Dashboard</a>
+							</li>
+							<li>
+								<a href="projects.htm"><i class="icon-folder-open"></i> Projects</a>
+							</li>
+							<li>
+								<a href="tasks.htm"><i class="icon-check"></i> Tasks</a>
+							</li>
+							<li>
+								<a href="messages.htm"><i class="icon-envelope"></i> Messages</a>
+							</li>
+							<li>
+								<a href="files.htm"><i class="icon-file"></i> Files</a>
+							</li>
+							<li>
+								<a href="activity.htm"><i class="icon-list-alt"></i> Activity</a>
+							</li>
+							<li class="nav-header">
+								Your Account
+							</li>
+							<li>
+								<a href="profile.htm"><i class="icon-user"></i> Profile</a>
+							</li>
+							<li class="active">
+								<a href="settings.htm"><i class="icon-white icon-cog"></i> Settings</a>
+							</li>
+							<li class="divider">
+							</li>
+							<li>
+								<a href="help.htm"><i class="icon-info-sign"></i> Help</a>
+							</li>
+							<li class="nav-header">
+								Bonus Templates
+							</li>
+							<li>
+								<a href="gallery.htm"><i class="icon-picture"></i> Gallery</a>
+							</li>
+							<li>
+								<a href="blank.htm"><i class="icon-stop"></i> Blank Slate</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="span9">
+					<h1>
+						Settings
+					</h1>
+					<form id="edit-profile" class="form-horizontal">
+						<fieldset>
+							<legend>Configure Your Settings</legend>
+							<div class="control-group">
+								<label class="control-label" for="input01">Notifications</label>
+								<div class="controls">
+									<label class="checkbox">
+										<input type="checkbox" name="optionsCheckboxList1" value="option1" checked="checked" />
+										Tasks
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="optionsCheckboxList2" value="option2" />
+										Messages
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="optionsCheckboxList3" value="option3" />
+										Files
+									</label>
+									<p class="help-block">Shows pop-up notifications of new items.</p>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="input01">Notification Email</label>
+								<div class="controls">
+									<input type="text" class="input-xlarge" id="input01" value="john.smith@example.org" />
+									<p class="help-block">Leave blank to use your profile email address.</p>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="optionsCheckboxList">Super Admins</label>
+								<div class="controls">
+									<label class="checkbox">
+										<input type="checkbox" name="optionsCheckboxList1" value="option1" checked="checked" />
+										John Smith
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="optionsCheckboxList2" value="option2" />
+										Jill Jackson
+									</label>
+									<label class="checkbox">
+										<input type="checkbox" name="optionsCheckboxList3" value="option3" />
+										Bill Kidman
+									</label>
+									<p class="help-block"><strong>Note:</strong> Super Admins get access to all projects.</p>
+								</div>
+							</div>
+							<div class="form-actions">
+								<button type="submit" class="btn btn-primary">Save</button> <button class="btn">Cancel</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/site.js"></script>
+	</body>
+</html>
