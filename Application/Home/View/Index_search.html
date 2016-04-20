@@ -24,9 +24,10 @@
 		<th>常用登录IP</th>
 		<th>其他</th>
 	</tr>
-	<tr>
-		<foreach name="result" item="v">
-			<td>{$v['name']}</td>
+	<foreach name="result" item="v">
+		<tr>
+		
+			<td>{$v['username']}</td>
 			<td>{$v['pass']}</td>
 			<td>{$v['qq']}</td>
 			<td>{$v['phone']}</td>
@@ -37,8 +38,9 @@
 			<td>{$v['email']}</td>
 			<td>{$v['ip']}</td>
 			<td>{$v['other']}</td>
-		</foreach>
-	</tr>
+		
+		</tr>
+	</foreach>
 
 </table>
 </div>

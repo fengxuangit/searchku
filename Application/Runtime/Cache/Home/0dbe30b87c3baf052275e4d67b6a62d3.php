@@ -24,8 +24,9 @@
 		<th>常用登录IP</th>
 		<th>其他</th>
 	</tr>
-	<tr>
-		<?php if(is_array($result)): foreach($result as $key=>$v): ?><td><?php echo ($v['name']); ?></td>
+	<?php if(is_array($result)): foreach($result as $key=>$v): ?><tr>
+		
+			<td><?php echo ($v['username']); ?></td>
 			<td><?php echo ($v['pass']); ?></td>
 			<td><?php echo ($v['qq']); ?></td>
 			<td><?php echo ($v['phone']); ?></td>
@@ -35,8 +36,9 @@
 			<td><?php echo ($v['idcard']); ?></td>
 			<td><?php echo ($v['email']); ?></td>
 			<td><?php echo ($v['ip']); ?></td>
-			<td><?php echo ($v['other']); ?></td><?php endforeach; endif; ?>
-	</tr>
+			<td><?php echo ($v['other']); ?></td>
+		
+		</tr><?php endforeach; endif; ?>
 
 </table>
 </div>

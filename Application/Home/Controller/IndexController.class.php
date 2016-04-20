@@ -10,11 +10,16 @@ class IndexController extends Controller {
     public function search(){
         $es = new \Org\Util\Elasticsearch();
         $search = array(
-            'field'  => I('type'),
-            'string' => I('keyword'),
+            'field'  => I('post.type'),
+            'string' => I('post.keyword'),
         );
-        $result = $es->search($search);
-        print_r($result);
+        $result = $es->search($search)['hits']['hits'];
+        $data = [];
+        for ($i=0;$i<count($result); $i++){
+            array_push($data, $result[$i]['_source']);
+        }
+        $this->assign('result', $data);
+        $this->display();
     }
 
 }

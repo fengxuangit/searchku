@@ -40,14 +40,6 @@ class Elasticsearch {
         return $ret;
     }
 
-    public function delete_document(){
-
-    }
-
-    public function update_document(){
-
-    }
-
     public function search($search){
         $parmas = [
             'index' =>  'searchku',
@@ -64,7 +56,14 @@ class Elasticsearch {
         return $result;
     }
 
-    public function get_document(){
+    public function get_document($data){
+        $parmas = [
+            'index' =>  'searchku',
+            'type'  =>  'info',
+            'id'    =>  $data['id'],
+        ];
 
+        $result = $this->client->get($parmas);
+        return $result;
     }
 }
