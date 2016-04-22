@@ -27,10 +27,10 @@ class ManageController extends CommonController{  //TODO  以后要改为CommonC
                 $this->error('新建任务失败!');
             }
         }
-        
 	}
 
 	public function tasks(){
+
 		$this->display();
 	}
 
