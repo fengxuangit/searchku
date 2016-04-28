@@ -7,7 +7,7 @@ from elasticsearch import Elasticsearch
 from optparse import OptionParser
 from ConfigParser import ConfigParser
 
-configfile = './conf/dump.conf'
+configfile = os.path.dirname(os.path.abspath(__file__)) + '/conf/searchku.conf'
 #读取配置文件
 class ReadConfig:
 
@@ -32,10 +32,10 @@ class Pyes:
                     'other':data['other'] ,
                     'time': int(time.time())
                 })
-        if result['_shards']['successful'] ==1:
+        if result['_shards']['successful'] != 0 :
             print "[*] index es ok!"
         else:
-            print "[*] something error! please check!"
+            print "[*] elasticsearch something error! please check!"
             sys.exit()
 
 class analysis:
@@ -91,6 +91,7 @@ def usage():
 def main():
     usage()
     analysis() 
+    print "[*] Done!"
 
 if __name__ == '__main__':
 #/Users/apple/Downloads/people_info.txt

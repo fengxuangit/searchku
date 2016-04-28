@@ -12,6 +12,7 @@
         <script src="/searchku/Public/js/site.js"></script>
     </head>
 
+
 	<body>
 		<div class="container">
 			<div class="navbar">
@@ -75,7 +76,7 @@
                 </div>
 				</div>
 			</div>
-			
+				
 <div class="row">
                 <div class="span3">
                     <div class="well" style="padding: 8px 0;">
@@ -87,42 +88,42 @@
                                 <a href="<?php echo U('Index/index', '', '');?>"><i class="icon-white icon-home"></i> 系统状态</a>
                             </li>
                             <li>
-                                <a href="<?php echo U('Manage/info', '', '');?>"><i class="icon-folder-open"></i> Projects</a>
+                                <a href="<?php echo U('Manage/info', '', '');?>"><i class="icon-folder-open"></i> 任务相关</a>
                             </li>
                             <li>
                                 <a href="<?php echo U('Manage/tasks', '', '');?>"><i class="icon-check"></i> Tasks</a>
                             </li>
                             <li>
-                                <a href="messages.htm"><i class="icon-envelope"></i> Messages</a>
+                                <a href="#"><i class="icon-envelope"></i> Messages</a>
                             </li>
                             <li>
-                                <a href="files.htm"><i class="icon-file"></i> Files</a>
+                                <a href="#"><i class="icon-file"></i> Files</a>
                             </li>
                             <li>
-                                <a href="activity.htm"><i class="icon-list-alt"></i> Activity</a>
+                                <a href="#"><i class="icon-list-alt"></i> Activity</a>
                             </li>
                             <li class="nav-header">
                                 Your Account
                             </li>
                             <li>
-                                <a href="profile.htm"><i class="icon-user"></i> Profile</a>
+                                <a href="#"><i class="icon-user"></i> Profile</a>
                             </li>
                             <li>
-                                <a href="settings.htm"><i class="icon-cog"></i> Settings</a>
+                                <a href="#"><i class="icon-cog"></i> Settings</a>
                             </li>
                             <li class="divider">
                             </li>
                             <li>
-                                <a href="help.htm"><i class="icon-info-sign"></i> Help</a>
+                                <a href="#"><i class="icon-info-sign"></i> Help</a>
                             </li>
                             <li class="nav-header">
                                 Bonus Templates
                             </li>
                             <li>
-                                <a href="gallery.htm"><i class="icon-picture"></i> Gallery</a>
+                                <a href="#"><i class="icon-picture"></i> Gallery</a>
                             </li>
                             <li>
-                                <a href="blank.htm"><i class="icon-stop"></i> Blank Slate</a>
+                                <a href="#"><i class="icon-stop"></i> Blank Slate</a>
                             </li>
                         </ul>
                     </div>
@@ -132,56 +133,46 @@
                 
 				<div class="span9">
 					<h1>
-						Tasks
+						下载完成
 					</h1>
-					<ul class="tasks zebra-list">
-						<li>
-							<input type="checkbox" /> <span class="title">Thank Bill for loaning his tools last weekend</span> <span class="meta">Created <em>1 week ago</em> by <em>Jill</em></span>
-						</li>
-						<li>
-							<input type="checkbox" /> <span class="title">Pay internet bill</span> <span class="meta">Created <em>1 week ago</em> by <em>Jill</em></span>
-						</li>
-						<li>
-							<input type="checkbox" /> <span class="title">Finish reading Game of Thrones</span> <span class="meta">Created <em>1 week ago</em> by <em>Jill</em></span>
-						</li>
-						<li>
-							<input type="checkbox" /> <span class="title">Buy sunscreen for the next summer day trip</span> <span class="meta">Created <em>1 week ago</em> by <em>Jill</em></span>
-						</li>
-						<li>
-							<input type="checkbox" /> <span class="title">Send a birthday card to Frankie</span> <span class="meta">Created <em>1 week ago</em> by <em>Jill</em></span>
-						</li>
-					</ul>
-					<a class="toggle-link" href="#new-task"><i class="icon-plus"></i> New Task</a>
-					<form id="new-task" class="form-horizontal hidden">
-						<fieldset>
-							<legend>New Task</legend>
-							<div class="control-group">
-								<label class="control-label" for="textarea">Task Details</label>
-								<div class="controls">
-									<textarea class="input-xlarge" id="textarea" rows="2"></textarea>
-								</div>
-							</div>
-							<div class="form-actions">
-								<button type="submit" class="btn btn-primary">Create</button> <button class="btn">Cancel</button>
-							</div>
-						</fieldset>
-					</form>
-					<h2>
-						Completed Tasks
-					</h2>
-					<ul class="tasks done">
-						<li>
-							<i class="icon-ok"></i> <span class="title">Wash the Car</span> <span class="meta">Completed <em>2 days ago</em> by <em>John</em></span>
-						</li>
-						<li>
-							<i class="icon-ok"></i> <span class="title">Call the plumber</span> <span class="meta">Completed <em>5 days ago</em> by <em>John</em></span>
-						</li>
-						<li>
-							<i class="icon-ok"></i> <span class="title">Try that new cookie recipe</span> <span class="meta">Completed <em>2 weeks ago</em> by <em>Jill</em></span>
-						</li>
-					</ul>
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>
+									数据库名称
+								</th>
+								<th>
+									yu la
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+						<?php if(is_array($result)): foreach($result as $key=>$v): ?><tr>
+								<td>
+									<?php echo ($v['name']); ?>
+								</td>
+								<td>
+									<?php echo ($v['client']); ?>
+								</td>
+								<td>
+									<span class="badge"><?php echo ($v['done']); ?></span>
+								</td>
+								<td>
+									<span class="badge"><?php echo ($v['referer']); ?></span>
+								</td>
+								<td>
+									<div class="progress">
+										<div class="bar" style="width: 0%;"></div>
+									</div>
+								</td>
+							</tr><?php endforeach; endif; ?>
+						</tbody>
+					</table>
+					
+					
 				</div>
 			</div>
 		</div>
+=
 	</body>
 </html>

@@ -3,6 +3,14 @@
 
 本程序即将重构 
 2016.04.18
+
+
+### 安装部署
+ 1. 注意需要将script中的dumpfile2es.py, py-wget.py 设置别名为`dumpfile`,`pywget`
+
+
+
+
 ----
 
 ## 简介

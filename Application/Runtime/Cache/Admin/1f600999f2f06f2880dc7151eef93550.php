@@ -12,7 +12,14 @@
         <script src="/searchku/Public/js/site.js"></script>
     </head>
 
+<script type="text/javascript">
+	$(function (){
+		var sche = "<?php echo ($sche); ?>";
+		var str = "width: " + sche + "%";
+		$('.bar').attr('style', str);
+	})
 
+</script>
 	<body>
 		<div class="container">
 			<div class="navbar">
@@ -88,42 +95,42 @@
                                 <a href="<?php echo U('Index/index', '', '');?>"><i class="icon-white icon-home"></i> 系统状态</a>
                             </li>
                             <li>
-                                <a href="<?php echo U('Manage/info', '', '');?>"><i class="icon-folder-open"></i> Projects</a>
+                                <a href="<?php echo U('Manage/info', '', '');?>"><i class="icon-folder-open"></i> 任务相关</a>
                             </li>
                             <li>
                                 <a href="<?php echo U('Manage/tasks', '', '');?>"><i class="icon-check"></i> Tasks</a>
                             </li>
                             <li>
-                                <a href="messages.htm"><i class="icon-envelope"></i> Messages</a>
+                                <a href="#"><i class="icon-envelope"></i> Messages</a>
                             </li>
                             <li>
-                                <a href="files.htm"><i class="icon-file"></i> Files</a>
+                                <a href="#"><i class="icon-file"></i> Files</a>
                             </li>
                             <li>
-                                <a href="activity.htm"><i class="icon-list-alt"></i> Activity</a>
+                                <a href="#"><i class="icon-list-alt"></i> Activity</a>
                             </li>
                             <li class="nav-header">
                                 Your Account
                             </li>
                             <li>
-                                <a href="profile.htm"><i class="icon-user"></i> Profile</a>
+                                <a href="#"><i class="icon-user"></i> Profile</a>
                             </li>
                             <li>
-                                <a href="settings.htm"><i class="icon-cog"></i> Settings</a>
+                                <a href="#"><i class="icon-cog"></i> Settings</a>
                             </li>
                             <li class="divider">
                             </li>
                             <li>
-                                <a href="help.htm"><i class="icon-info-sign"></i> Help</a>
+                                <a href="#"><i class="icon-info-sign"></i> Help</a>
                             </li>
                             <li class="nav-header">
                                 Bonus Templates
                             </li>
                             <li>
-                                <a href="gallery.htm"><i class="icon-picture"></i> Gallery</a>
+                                <a href="#"><i class="icon-picture"></i> Gallery</a>
                             </li>
                             <li>
-                                <a href="blank.htm"><i class="icon-stop"></i> Blank Slate</a>
+                                <a href="#"><i class="icon-stop"></i> Blank Slate</a>
                             </li>
                         </ul>
                     </div>
@@ -141,17 +148,18 @@
 								<th>
 									数据库名称
 								</th>
+								
 								<th>
-									节 点
-								</th>
-								<th>
-									是否完成
+									是否入库
 								</th>
 								<th>
 									来 源
 								</th>
 								<th>
-									Progress
+									下载进度
+								</th>
+								<th>
+									操作
 								</th>
 							</tr>
 						</thead>
@@ -161,17 +169,20 @@
 									<?php echo ($v['name']); ?>
 								</td>
 								<td>
-									<?php echo ($v['client']); ?>
-								</td>
-								<td>
 									<span class="badge"><?php echo ($v['done']); ?></span>
 								</td>
 								<td>
 									<span class="badge"><?php echo ($v['referer']); ?></span>
 								</td>
 								<td>
+									<input type="hidden" name="process" value="<?php echo ($v['downsche']); ?>" />
 									<div class="progress">
-										<div class="bar" style="width: 60%;"></div>
+										<div class="bar" style="width: 0%;"></div>
+									</div>
+								</td>
+								<td>
+									<div align="center">
+									<a href="<?php echo U('Manage/preview', array('id'=>$v['id']), '');?>">预览</a> | <a href="<?php echo U('Manage/dump', array('id'=>$v['id']), '');?>" onclick="return confirm('确定入库吗?');">入库</a>
 									</div>
 								</td>
 							</tr><?php endforeach; endif; ?>
