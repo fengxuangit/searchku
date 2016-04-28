@@ -1,5 +1,12 @@
 <include file="./Application/Admin/View/header.html" />
+<script type="text/javascript">
+	$(function (){
+		var sche = "{$sche}";
+		var str = "width: " + sche + "%";
+		$('.bar').attr('style', str);
+	})
 
+</script>
 	<body>
 		<div class="container">
 			<div class="navbar">
@@ -17,17 +24,18 @@
 								<th>
 									数据库名称
 								</th>
+								
 								<th>
-									节 点
-								</th>
-								<th>
-									是否完成
+									是否入库
 								</th>
 								<th>
 									来 源
 								</th>
 								<th>
-									Progress
+									下载进度
+								</th>
+								<th>
+									操作
 								</th>
 							</tr>
 						</thead>
@@ -38,17 +46,20 @@
 									{$v['name']}
 								</td>
 								<td>
-									{$v['client']}
-								</td>
-								<td>
 									<span class="badge">{$v['done']}</span>
 								</td>
 								<td>
 									<span class="badge">{$v['referer']}</span>
 								</td>
 								<td>
+									<input type="hidden" name="process" value="{$v['downsche']}" />
 									<div class="progress">
-										<div class="bar" style="width: 60%;"></div>
+										<div class="bar" style="width: 0%;"></div>
+									</div>
+								</td>
+								<td>
+									<div align="center">
+									<a href="{:U('Manage/preview', array('id'=>$v['id']), '')}">预览</a>
 									</div>
 								</td>
 							</tr>

@@ -1,25 +1,22 @@
 <?php
 
-function POST($url, $data='', $method='post'){
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+function GetFileLine($filename, $start, $end){
+	$content = array();
 
-	$html = curl_exec($ch);
-	curl_close($ch);
+	$count = $end - $start;
 
-	return $html;
+	$fp = new SplFileObject($filename, 'rb');
+
+	$fp->seek($start);
+	for ($i=0; $i < $count; ++$i) { 
+		$content[] = $fp->current();
+		$fp->next();
+	}
+
+	return array_filter($content);
 }
 
-function GET($url){
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	curl_setopt($ch, CURLOPT_HEADER, 0);
-
-	$html = curl_exec($ch);
-	curl_close($ch);
-
-	return $html;
+function RunCommand($cmd){
+	$out = system($cmd, $result);
+	return $result;
 }

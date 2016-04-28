@@ -14,5 +14,6 @@ return array(
 	'DB_CHARSET' => 'utf8',
 	'DB_DEBUG' => TRUE,
 	'DB_PREFIX' => 'sk_',
+	'DEFAULT_FILTER' => 'addslashes',
 	// 'ERROR_PAGE' => '/Home/404.html',
 );
