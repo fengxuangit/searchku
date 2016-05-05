@@ -10,7 +10,6 @@ from ConfigParser import ConfigParser
 configfile = os.path.dirname(os.path.abspath(__file__)) + '/conf/searchku.conf'
 #读取配置文件
 class ReadConfig:
-
     @staticmethod 
     def getconfig(section, key):
         config = ConfigParser()

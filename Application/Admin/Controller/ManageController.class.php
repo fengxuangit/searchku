@@ -1,6 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+
 class ManageController extends CommonController{  //TODO  以后要改为CommonController
 	public function index(){
 		$this->display();
@@ -15,16 +16,11 @@ class ManageController extends CommonController{  //TODO  以后要改为CommonC
             $data = array(
                 'name'      =>  I('post.dbname'),
                 'referer'   =>  I('post.referer'),
-                'link'      =>  I('post.link'),
                 'done'      =>  0,
+                'link'      =>  I('post.link'), 
                 'time'      =>  time(),
             );
             $result = M('data')->add($data);
-            $task = array(
-                'pid'       =>  $result,
-                'downsche'  =>  0,
-            );
-            M('task')->add($data);
             if ($result){
                 $this->success('新建任务成功!');
             }else{
@@ -42,7 +38,7 @@ class ManageController extends CommonController{  //TODO  以后要改为CommonC
     public function preview(){
         if(!IS_POST){
             $id = I('id');
-            $source = M('task')->field('downpath')->where(array('id'=>$id))->find();
+            $source = M('data')->field('downpath')->where(array('id'=>$id))->find();
             $content = GetFileLine($source['downpath'], 0, 3);
             $this->assign('result', $content);
             $this->assign('id', $id);
@@ -53,7 +49,8 @@ class ManageController extends CommonController{  //TODO  以后要改为CommonC
                 'filecolumns' => trim(I('post.columns')),
                 'split'       => trim(I('post.split')),
             );
-            $result = M('task')->where(array('pid'=>$id))->save($data);
+            $result = M('data
+                ')->where(array('pid'=>$id))->save($data);
             if($result){
                 $this->success('预判字段成功');
             }else{

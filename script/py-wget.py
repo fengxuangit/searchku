@@ -41,7 +41,7 @@ class wget:
 	def download(self, url, filename, headers = {}):
 		finished = False
 		block = self.config['block']
-		local_filename = self.remove_nonchars(filename)
+		local_filename = options.filename
 		tmp_filename = local_filename + '.downtmp'
 		size = self.size
 		total = self.total
@@ -79,7 +79,7 @@ class wget:
 					self.saveschedule(sche)
 				finished = True
 				os.remove(tmp_filename)
-				spend = int(time.time() - start_t)
+				spend = int(time.time() - start_t) if  int(time.time() - start_t)>0 else 1
 				speed = int((size - self.size) / 1024 / spend)
 				sys.stdout.write('\nDownload Finished!\nTotal Time: %ss, Download Speed: %sk/s\n' % (spend, speed))
 				sys.stdout.flush()
@@ -95,7 +95,7 @@ class wget:
 
 	def saveschedule(self, sche):
 		fm = "sche: {0}\n".format(sche)
-		with open('/tmp/schedule.dat', 'wb') as f:
+		with open('{0}.dat'.format(options.filename), 'wb') as f:
 			f.write(fm)
 
 if __name__ == '__main__':

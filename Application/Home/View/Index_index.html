@@ -36,12 +36,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						  <form id="loginForm">
 			                <fieldset id="body">
 			                	<fieldset>
-			                          <label for="email">Email Address</label>
-			                          <input type="text" name="email" id="email">
+			                        <label for="email">Email Address</label>
+			                        <input type="text" name="email" id="email">
 			                    </fieldset>
 			                    <fieldset>
-			                            <label for="password">Password</label>
-			                            <input type="password" name="password" id="password">
+			                        <label for="password">Password</label>
+			                        <input type="password" name="password" id="password">
 			                     </fieldset>
 			                    <input type="submit" id="login" value="Sign in">
 			                	<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
@@ -65,19 +65,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		            <li id="search">
 						<form id='d1' action="{:U('Index/search', '', '')}" method="post">
 							<input type="text" name="keyword" id="search_text" placeholder="Search"/>
+							<input type="button" name="search_button" id="search_button" />
+							<select name="type" class="search">
+								<option value="username" selected="selected">username</option>
+								<option value="qq">qq</option>
+								<option value="email">email</option>
+								<option value="other">other</option>
+							</select>
 							<input type="hidden" name="type" value="username">
-							<input type="button" name="search_button" id="search_button">
 					</li>
-					<li id="options">
-						<a href="#">All Images</a>
-						<ul class="subnav">
-							<li><a href="#">username</a></li>
-							<li><a href="#">email</a></li>
-							<li><a href="#">qq</a></li>
-							<li><a href="#">other</a></li>
-						</ul>
-					</li>
-	              </ul>
+					</ul>
 	              </form>
 	            </div>
 			</div>
@@ -96,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li><a href="faq.html">FAQ</a></li>
 			<li><a href="#">Categories</a></li>
          </ul>
-         <p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.evalshell.com/">Xfree内部社工库查询系统</a></p>
+         <p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://www.evalshell.com/">Xfree内部社工库查询系统</a></p>
 	  </div>
 	</div>
 </body>

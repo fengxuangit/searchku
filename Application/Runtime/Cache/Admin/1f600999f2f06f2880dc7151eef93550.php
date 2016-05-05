@@ -17,6 +17,14 @@
 		var sche = "<?php echo ($sche); ?>";
 		var str = "width: " + sche + "%";
 		$('.bar').attr('style', str);
+
+		$('#subm').click(function (){
+			if ($("input[name='dbname']").val() == '' || $("input[name='referer']").val() == '' || $('#textarea').val() == ''){
+				alert('关键字段不能为空!');
+				return false;
+			}
+		})
+		
 	})
 
 </script>
@@ -182,7 +190,7 @@
 								</td>
 								<td>
 									<div align="center">
-									<a href="<?php echo U('Manage/preview', array('id'=>$v['id']), '');?>">预览</a> | <a href="<?php echo U('Manage/dump', array('id'=>$v['id']), '');?>" onclick="return confirm('确定入库吗?');">入库</a>
+									<a href="<?php echo U('Manage/preview', array('id'=>$v['id']), '');?>">预览</a>
 									</div>
 								</td>
 							</tr><?php endforeach; endif; ?>
@@ -217,7 +225,7 @@
 								</div>
 							</div>
 							<div class="form-actions">
-								<button type="submit" class="btn btn-primary">Create</button> <button class="btn">Cancel</button>
+								<button type="submit" id="subm" class="btn btn-primary">Create</button> <button class="btn">Cancel</button>
 							</div>
 						</fieldset>
 					</form>
