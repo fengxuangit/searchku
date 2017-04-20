@@ -70,7 +70,6 @@ class Mysql:
         self.conn.commit()
         print result
     
-
     def __del__(self):
         self.conn.close()
         self.cursor.close()
@@ -79,7 +78,7 @@ def main():
     result = Mysql().gettask()
     for line in result:
         DownFile(line)
-        # DumpFile(line)
+        DumpFile(line)
 
 if __name__ == '__main__':
     main()

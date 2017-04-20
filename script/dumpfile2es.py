@@ -93,5 +93,4 @@ def main():
     print "[*] Done!"
 
 if __name__ == '__main__':
-#/Users/apple/Downloads/people_info.txt
     main()
