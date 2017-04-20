@@ -1,0 +1,370 @@
+Script started on Sat Apr 23 14:44:25 2016
+
+ls[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku]1;..root/searchku[0m[27m[24m[J[01;32m➜  [36msearchku[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku]1;..root/searchku[0m[27m[24m[J[01;32m➜  [36msearchku[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=llsl  lls[?1l>
+]2;ls -G]1;ls[30m[43mApplication[39;49m[0m   [31mREADME.md[39;49m[0m     [31mcomposer.json[39;49m[0m [1m[36mscript[39;49m[0m
+[30m[43mPublic[39;49m[0m        [30m[43mThinkPHP[39;49m[0m      [31mindex.php[39;49m[0m     typescript
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku]1;..root/searchku[0m[27m[24m[J[01;32m➜  [36msearchku[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=ccd script[1m/[0m[0m [?1l>
+]2;cd script]1;cd[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mconf[39;49m[0m           [31mdumpfile2es.py[39;49m[0m [31mpy-wget.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=cclear[?1l>
+]2;clear]1;clear[H[2J[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mconf[39;49m[0m           [31mdumpfile2es.py[39;49m[0m [31mpy-wget.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=ssc
+[0mSCREEN_NO        scandeps5.16.pl  scp              script         
+sc_auth          scandeps5.18.pl  scrapy           scselect       
+sc_usage         sched            screen           scutil         
+[Jscandeps.pl      [Jschemagen        [Jscreencapture    [J               [4A[0m[27m[24m[31Csc[KSCREEN_NO[1m=[0m
+[7mSCREEN_NO      [0m  scandeps5.16.pl  scp              script         [K
+sc_auth          scandeps5.18.pl  scrapy           scselect       [K
+sc_usage         sched            screen           scutil         [K
+[Jscandeps.pl      [Jschemagen        [Jscreencapture    [J               [4A[0m[27m[24m[31CSCREEN_NO[1m=[0m[K
+[7mSCREEN_NO      [0m  [7mSCREEN_NO      [0m  [A[0m[27m[24m[31CSCREEN_NO[1m=[0m[K
+[J[A[41C[0m        S  lls[?1l>
+[J]2;ls -G]1;ls[1m[36mconf[39;49m[0m           [31mdumpfile2es.py[39;49m[0m [31mpy-wget.py[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=vvim dumpfile2es.py[1m [0m[0m -h[?1l>
+]2;vim dumpfile2es.py -h]1;vimVIM - Vi IMproved 7.3 (2010 Aug 15, compiled Jul  9 2015 23:58:42)
+
+usage: vim [arguments] [file ..]       edit specified file(s)
+   or: vim [arguments] -               read text from stdin
+   or: vim [arguments] -t tag          edit file where tag is defined
+   or: vim [arguments] -q [errorfile]  edit file with first error
+
+Arguments:
+   --			Only file names after this
+   -v			Vi mode (like "vi")
+   -e			Ex mode (like "ex")
+   -s			Silent (batch) mode (only for "ex")
+   -d			Diff mode (like "vimdiff")
+   -y			Easy mode (like "evim", modeless)
+   -R			Readonly mode (like "view")
+   -Z			Restricted mode (like "rvim")
+   -m			Modifications (writing files) not allowed
+   -M			Modifications in text not allowed
+   -b			Binary mode
+   -l			Lisp mode
+   -C			Compatible with Vi: 'compatible'
+   -N			Not fully Vi compatible: 'nocompatible'
+   -V[N][fname]		Be verbose [level N] [log messages to fname]
+   -D			Debugging mode
+   -n			No swap file, use memory only
+   -r			List swap files and exit
+   -r (with file name)	Recover crashed session
+   -L			Same as -r
+   -T <terminal>	Set terminal type to <terminal>
+   -u <vimrc>		Use <vimrc> instead of any .vimrc
+   --noplugin		Don't load plugin scripts
+   -p[N]		Open N tab pages (default: one for each file)
+   -o[N]		Open N windows (default: one for each file)
+   -O[N]		Like -o but split vertically
+   +			Start at end of file
+   +<lnum>		Start at line <lnum>
+   --cmd <command>	Execute <command> before loading any vimrc file
+   -c <command>		Execute <command> after loading the first file
+   -S <session>		Source file <session> after loading the first file
+   -s <scriptin>	Read Normal mode commands from file <scriptin>
+   -w <scriptout>	Append all typed commands to file <scriptout>
+   -W <scriptout>	Write all typed commands to file <scriptout>
+   -x			Edit encrypted files
+   --startuptime <file>	Write startup timing messages to <file>
+   -i <viminfo>		Use <viminfo> instead of .viminfo
+   -h  or  --help	Print Help (this message) and exit
+   --version		Print version information and exit
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=vim dumpfile2es.py -h[21D                     [21Dddu
+[J[0mdu        [Jdumpcap   [Jdumpsexp[J[A[0m[27m[24m[31Cdu[Kd  pp dumpfile2es.py[1m [0m[0m [?1l>
+[J]2;python dumpfile2es.py]1;pUsage: dumpfile2es.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -f FILE, --file=FILE  main file
+  -c COLUMN, --column=COLUMN
+                        the column to sign
+  -s SPLITS, --split=SPLITS
+                        the split character
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=
+bck-i-search: _[K[A[16Cp [4md[24mumpfile2es.py[1B[33Dd_[A[17C[4md[4mu[24m[1B[20Du_[A[16C[1C[4mu[4mm[24m[1B[20Dm_[A[15C[24md[24mu[24mm[1B[K[A[34C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[16D                [16Dhhistory | grep 2es.py[?1l>[1B]2;fc -l 1 | grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn} 2es.py]1;history 7172  p /Users/apple/code/weakfilescan/work/py[01;31m[K2es.py[m[K
+ 7176  p /Users/apple/code/weakfilescan/work/py[01;31m[K2es.py[m[K
+ 7178  p /Users/apple/code/weakfilescan/work/py[01;31m[K2es.py[m[K
+ 7179  p /Users/apple/code/weakfilescan/work/py[01;31m[K2es.py[m[Kres
+ 7181  p /Users/apple/code/weakfilescan/work/py[01;31m[K2es.py[m[K
+ 7185  /Users/apple/code/test/pyes1.py/Users/apple/code/weakfilescan/work/py[01;31m[K2es.py[m[K
+ 7196  p /Users/apple/code/work/py[01;31m[K2es.py[m[K
+ 7199  p /Users/apple/code/work/py[01;31m[K2es.py[m[K
+ 7201  p /Users/apple/code/work/py[01;31m[K2es.py[m[K
+ 7371  p py[01;31m[K2es.py[m[K
+ 7507  p py[01;31m[K2es.py[m[K
+ 7509  p py[01;31m[K2es.py[m[K
+ 7514  p py[01;31m[K2es.py[m[K
+ 7517  p py[01;31m[K2es.py[m[K
+ 7519  p py[01;31m[K2es.py[m[K
+ 7522  p py[01;31m[K2es.py[m[K
+ 9605  chmod +x dumpfile[01;31m[K2es.py[m[K
+ 9609  vim dumpfile[01;31m[K2es.py[m[K
+ 9613  vim dumpfile[01;31m[K2es.py[m[K
+ 9615  vim dumpfile[01;31m[K2es.py[m[K
+ 9619  vim dumpfile[01;31m[K2es.py[m[K
+ 9686  p dumpfile[01;31m[K2es.py[m[K
+ 9712  vim dumpfile[01;31m[K2es.py[m[K
+ 9716  p dumpfile[01;31m[K2es.py[m[K
+ 9718  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info.txt -c id,username,other,other,other,other,other,other -s ,
+ 9720  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info.txt -c id,username,other,other,other,other,other,other -s ,
+ 9721  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info.txt -c id,username,email,other,other,other,other,other -s ,
+ 9723  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9725  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9726  vim dumpfile[01;31m[K2es.py[m[K
+ 9727  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9729  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9731  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9864  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9878  vim dumpfile[01;31m[K2es.py[m[K
+ 9881  p dumpfile[01;31m[K2es.py[m[K
+ 9886  p dumpfile[01;31m[K2es.py[m[K
+ 9888  p dumpfile[01;31m[K2es.py[m[K
+ 9923  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9926  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9933  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9934  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c username, name,email,other,other,other,other,other,other -s ,
+ 9935  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c id,username,email,other,other,other,other,other -s ,
+ 9936  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c username,name,email,other,other,other,other,other,other -s ,
+ 9974  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c username,name,email,other,other,other,other,other,other -s ,
+ 9977  p dumpfile[01;31m[K2es.py[m[K -f /Users/apple/Downloads/people_info2.txt -c username,name,email,other,other,other,other,other,other -s ,
+ 9985  git df script/dumpfile[01;31m[K2es.py[m[K 
+ 9986  git add script/dumpfile[01;31m[K2es.py[m[K
+ 9994  git add script/dumpfile[01;31m[K2es.py[m[K
+10034  vim script/dumpfile[01;31m[K2es.py[m[K
+10074  vim dumpfile[01;31m[K2es.py[m[K -h
+10075  p dumpfile[01;31m[K2es.py[m[K
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=history | grep 2es.py[21D                     [21Dpp dumpfile2es.py -f /Users/apple/Downloads/peop [Klle_info2.txt -c username,name,email,other,other,other,other,other,other -s ,[A[45D#p dumpfile2es.py -f /Users/apple/Downloads/people_info2.txt -c username,name,email[5P[30C,other -s ,[A[45D[?1l>[1B
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=ccls[?1l>
+]2;clear]1;cls[H[2J[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=cls#p dumpfile2es.py -f /Users/apple/Downloads/people_info2.txt -c username,name,email,other,other,other,other,other,other -s ,[K[A[46Dcls[K[1B[K[A[34C. [?1l>[1B]2;clear]1;cls[H[2J[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;32m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=ccd c  
+bck-i-search: _[K[A[16C#p dumpfile2es.py -f /Users/apple/[4mD[24mownloads/people_info2.txt -c username,name,email,other,other,other,other,other,other -s ,
+bck-i-search: D_[K[A[A[49C[34Dcurl curl -X[4mD[4mE[24mLETE 'http://localho[24mst:9200/searchku/'                                                                        [1B[62DE_[A[A[26C[1C[4mE[4mL[24m[2B[30DL_[A[A[25C[2C[4mL[4mE[24m[2B[30DE_[A[A[24C[24mD[24mE[24mL[24mE[2B[K[A[A[43C[?1l>[2B]2;curl curl -XDELETE 'http://localhost:9200/searchku/']1;curlcurl: (6) Could not resolve host: curl
+curl: (7) Failed to connect to localhost port 9200: Connection refused
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/wwwroot/searchku/script]1;..archku/script[0m[27m[24m[J[01;31m➜  [36mscript[00m [01;34mgit:([31mdevelop/task[34m) [33m✗[00m [K[?1h=ccd ~/bin/elasticsearch-2.1.0[1m/[0m[0m [?1l>
+]2;cd ~/bin/elasticsearch-2.1.0]1;cd[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0]1;..csearch-2.1.0[0m[27m[24m[J[01;32m➜  [36melasticsearch-2.1.0[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsLICENSE.txt    README.textile [1m[36mconfig[39;49m[0m         [1m[36mlib[39;49m[0m            [1m[36mplugins[39;49m[0m
+NOTICE.txt     [1m[36mbin[39;49m[0m            [1m[36mdata[39;49m[0m           [1m[36mlogs[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0]1;..csearch-2.1.0[0m[27m[24m[J[01;32m➜  [36melasticsearch-2.1.0[00m [K[?1h=ccd bin[1m/[0m[0m [?1l>
+]2;cd bin]1;cd[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0/bin]1;..rch-2.1.0/bin[0m[27m[24m[J[01;32m➜  [36mbin[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[31melasticsearch[39;49m[0m                 elasticsearch.in.bat
+elasticsearch-service-mgr.exe [31melasticsearch.in.sh[39;49m[0m
+elasticsearch-service-x64.exe [31mplugin[39;49m[0m
+elasticsearch-service-x86.exe plugin.bat
+elasticsearch.bat             service.bat
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0/bin]1;..rch-2.1.0/bin[0m[27m[24m[J[01;32m➜  [36mbin[00m [K[?1h=../ealasticsearch &[?1l>
+]2;./elasticsearch &]1;./elasticsearch[1] 15900
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0/bin]1;..rch-2.1.0/bin[0m[27m[24m[J[01;32m➜  [36mbin[00m [K[?1h=log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: /Users/apple/bin/elasticsearch-2.1.0/logs/elasticsearch.log (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:142)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:128)
+	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:204)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:258)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+log4j:ERROR Either File or DatePattern options are not set for appender [file].
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: /Users/apple/bin/elasticsearch-2.1.0/logs/elasticsearch_deprecation.log (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:142)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:128)
+	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:204)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:258)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+log4j:ERROR Either File or DatePattern options are not set for appender [deprecation_log_file].
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: /Users/apple/bin/elasticsearch-2.1.0/logs/elasticsearch_index_indexing_slowlog.log (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:142)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:128)
+	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:204)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:258)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+log4j:ERROR Either File or DatePattern options are not set for appender [index_indexing_slow_log_file].
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: /Users/apple/bin/elasticsearch-2.1.0/logs/elasticsearch_index_search_slowlog.log (Permission denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:142)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.DailyRollingFileAppender.activateOptions(DailyRollingFileAppender.java:223)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:440)
+	at org.elasticsearch.common.logging.log4j.LogConfigurator.configure(LogConfigurator.java:128)
+	at org.elasticsearch.bootstrap.Bootstrap.setupLogging(Bootstrap.java:204)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:258)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+log4j:ERROR Either File or DatePattern options are not set for appender [index_search_slow_log_file].
+[2016-04-23 14:50:00,637][INFO ][node                     ] [Marrina] version[2.1.0], pid[15900], build[72cd1f1/2015-11-18T22:40:03Z]
+[2016-04-23 14:50:00,638][INFO ][node                     ] [Marrina] initializing ...
+[2016-04-23 14:50:00,829][INFO ][plugins                  ] [Marrina] loaded [], sites [head]
+[2016-04-23 14:50:00,862][INFO ][env                      ] [Marrina] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [47.1gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[?1l>
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0/bin]1;..rch-2.1.0/bin[0m[27m[24m[J[01;32m➜  [36mbin[00m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0/bin]1;..rch-2.1.0/bin[0m[27m[24m[J[01;32m➜  [36mbin[00m [K[?1h=[?1l>
+[1m[7m%[27m[1m[0m                                                                              ]2;apple@AppledeMacBook-Pro: ~/bin/elasticsearch-2.1.0/bin]1;..rch-2.1.0/bin[0m[27m[24m[J[01;32m➜  [36mbin[00m [K[?1h=./elasticsearch &[17Dls               [15D[2016-04-23 14:50:03,121][INFO ][node                     ] [Marrina] initialized
+[2016-04-23 14:50:03,121][INFO ][node                     ] [Marrina] starting ...
+[2016-04-23 14:50:03,208][INFO ][transport                ] [Marrina] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[fe80::1]:9300}, {[::1]:9300}
+[2016-04-23 14:50:03,220][INFO ][discovery                ] [Marrina] elasticsearch/QHAqp5nnSsWlN1v5H17h3w
+cd bin[2016-04-23 14:50:06,255][INFO ][cluster.service          ] [Marrina] new_master {Marrina}{QHAqp5nnSsWlN1v5H17h3w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-23 14:50:06,265][INFO ][http                     ] [Marrina] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[fe80::1]:9200}, {[::1]:9200}
+[2016-04-23 14:50:06,265][INFO ][node                     ] [Marrina] started
+[2016-04-23 14:50:06,301][INFO ][gateway                  ] [Marrina] recovered [1] indices into cluster_state
+[2016-04-23 14:50:06,838][WARN ][index.translog           ] [Marrina] [searchku][1] failed to delete temp file /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/1/translog/translog-5294304722574818532.tlog
+java.nio.file.NoSuchFileException: /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/1/translog/translog-5294304722574818532.tlog
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:244)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1079)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-23 14:50:06,839][WARN ][index.translog           ] [Marrina] [searchku][0] failed to delete temp file /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/0/translog/translog-8664796071041557934.tlog
+java.nio.file.NoSuchFileException: /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/0/translog/translog-8664796071041557934.tlog
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:244)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1079)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-23 14:50:06,839][WARN ][index.translog           ] [Marrina] [searchku][4] failed to delete temp file /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/4/translog/translog-267059965582468607.tlog
+java.nio.file.NoSuchFileException: /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/4/translog/translog-267059965582468607.tlog
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:244)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1079)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-23 14:50:06,838][WARN ][index.translog           ] [Marrina] [searchku][2] failed to delete temp file /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/2/translog/translog-7596547321131083159.tlog
+java.nio.file.NoSuchFileException: /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/2/translog/translog-7596547321131083159.tlog
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:244)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1079)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-23 14:50:06,906][WARN ][index.translog           ] [Marrina] [searchku][3] failed to delete temp file /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/3/translog/translog-8702717065819884233.tlog
+java.nio.file.NoSuchFileException: /Users/apple/bin/elasticsearch-2.1.0/data/elasticsearch/nodes/0/indices/searchku/3/translog/translog-8702717065819884233.tlog
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:244)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:103)
+	at java.nio.file.Files.delete(Files.java:1079)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-23 14:50:25,012][INFO ][cluster.metadata         ] [Marrina] [searchku] deleting index

@@ -1,8 +1,11 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class IndexController extends CommonController {
+    
     public function index(){
-        $this->display();
+        $username = session('username');
+        $this->assign('username', $username)->display();
     }
+
 }

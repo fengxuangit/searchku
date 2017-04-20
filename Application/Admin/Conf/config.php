@@ -6,7 +6,7 @@ return array(
 	'DEFAULT_GROUP' => 'Index',
 
 	'TMPL_PARSE_STRING' => array(
-		'__pUBLIC__' => __ROOT__ . '/Public/'
+		'__PUBLIC__' => __ROOT__ . '/Public/'
 	),
 	'TMPL_FILE_DEPR' => '_',
 );

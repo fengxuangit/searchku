@@ -1,48 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<link rel="stylesheet" href="__PUBLIC__/css/login.css" />
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-		<script type="text/javascript" src="__PUBLIC__/js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="__PUBLIC__/js/login.js"></script>
-		<script type="text/javascript" >
-		 var verURL = {:U("Admin/Login/verity" , '' , '')};
-		
-		</script>
-	</head>
-	<body>
-		<div id="top">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" " http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-		</div>
-		<div class="login">	
-			<form action="{:U("Admin/Login/login" , '' , '')}" method="post" id="login">
-			<div class="title">
-			 网络工程学院通用管理后台
-			</div>
-			<table border="1" width="100%">
-				<tr>
-					<th>管理员帐号:</th>
-					<td>
-						<input type="username" name="username" class="len250"/>
-					</td>
-				</tr>
-				<tr>
-					<th>密码:</th>
-					<td>
-						<input type="password" class="len250" name="password"/>
-					</td>
-				</tr>
-				<tr>
-					<th>验证码:</th>
-					<td>
-						<input type="code" class="len250" name="code"/> <img src="{:U('Admin/Login/verity')}" id="code"/> <a href="javascript:void(change_code(this));">看不清</a>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" style="padding-left:160px;"> <input type="submit" class="submit" value="登录"/></td>
-				</tr>
-			</table>
-		</form>
+<html> 
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>社工裤后台登录</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/css/site.css" rel="stylesheet">
+		<script src="__PUBLIC__/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/js/site.js"></script>
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<script type="text/javascript">
+			$(function (){
+				$('#img1').click(function (){
+					var imgsrc = "{:U('Login/verity', '', '')}" + '?' + Math.random();
+					$('#img1').attr('src', imgsrc);
+				});
+			})
+		</script>
+
+	</head>
+<body>
+	<div id="login-page" class="container">
+		<h1>社工裤后台登录</h1>
+		<form id="login-form" method="post" class="well" action="{:U('Login/check', '', '')}">
+			<label><input type="text" class="span2" name="username"  placeholder="username" /><br /></label>
+			<label><input type="password" class="span2" name="password" placeholder="password" /><br />
+			</label>
+			<label>
+			<input type="text" class="span2" name="verity" placeholder="verity" />
+			<img src="{:U('Login/verity', '', '')}" id="img1" />
+			</label>
+			<label class="checkbox">
+				<input type="checkbox" /> Remember me 
+			</label>
+			<button type="submit" class="btn btn-primary">Sign in</button>
+			<button type="submit" class="btn">Forgot Password</button>
+	</form>	
 	</div>
 	</body>
 </html>

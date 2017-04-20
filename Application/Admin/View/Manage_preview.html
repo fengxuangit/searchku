@@ -1,0 +1,54 @@
+<include file="./Application/Admin/View/header.html" />
+
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<include file="./Application/Admin/View/header2.html" />
+				</div>
+			</div>
+				<include file="./Application/Admin/View/left.html" />
+		<div class="span9">
+			<h1>
+				File Preview
+			</h1>
+			<h2>
+			</h2>
+			<div>
+			<foreach name="result" item="v" > 
+				<ul class="messages">
+					<li class="well">
+						<p class="message">
+							{$v}
+						</p>
+						<span class="meta">Written <em>2 weeks ago</em> by <em>Jill</em></span>
+					</li>
+				</ul>
+			</foreach>
+			</div>
+				<a class="toggle-link" href="#message-reply"><i class="icon-plus"></i> Reply</a>
+				<form id="message-reply" class="form-horizontal hidden" method="post">
+					<input type="hidden" name="id" value="{$id}">
+					<fieldset>
+						<legend>Reply</legend>
+						<div class="control-group">
+							<label class="control-label" for="textarea">columns: </label>
+							<div class="controls">
+								<textarea class="input-xlarge" name="columns" id="textarea" rows="4"></textarea>
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="textarea">spilit: </label>
+							<div class="controls">
+								<input type="text" name="split" value="">
+							</div>
+						</div>
+						<div class="form-actions">
+							<button type="submit" class="btn btn-primary">Create</button> <button class="btn">Cancel</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
